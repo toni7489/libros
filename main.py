@@ -40,3 +40,14 @@ campo_mensaje = driver.find_element(By.NAME,"subject" )
 #Rellenar campo de texto mensaje
 campo_mensaje.send_keys(mensaje_estructurado)
 
+# Localizar el botón de enviar utilizando el XPath absoluto
+boton_enviar = driver.find_element(By.XPATH, "/html/body/div/div[2]/div[1]/div/div/div/main/article/div/div/form/p[4]/input")
+
+# Hacer clic en el botón de enviar
+boton_enviar.click()
+
+# Cerrar el navegador
+driver.quit()
+
+
+
