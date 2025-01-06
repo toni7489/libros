@@ -62,7 +62,8 @@ nombres = [
 total_nombres = len(nombres)
 
 # Asegurando que no haya más de 1000 ejecuciones
-for i in range(min(1000, total_nombres)):  # Limitar a un máximo de 1000 ejecuciones
+for i in range(1, total_nombres):  # Limitar a un máximo de 1000 ejecuciones
+    
     nombre_completo = nombres[i]
     
 
@@ -76,10 +77,10 @@ for i in range(min(1000, total_nombres)):  # Limitar a un máximo de 1000 ejecuc
     except Exception as e:
         print(f"Se produjo un error durante la ejecución: {e}")
 
-    print(f"Ejecutado intento número: {i+1} con el nombre: {nombre_completo}")    
+    print(f"Ejecutado intento número: {i} con el nombre: {nombre_completo}")    
 
     # Dormir 5 minutos (300 segundos)
-    time.sleep(5 * 50)
+    time.sleep(5 * 60)
 
 # Si quieres una notificación cuando se termine el bucle
 print("Se han procesado todos los nombres.")
