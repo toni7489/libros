@@ -25,7 +25,8 @@ dominio_email = random.choice(dominios)
 # Crear el email completo
 email = f"{nombre_email}@{dominio_email}"
 
-# Imprimir el email generado
+# Imprimir para depurar  
+# #el email generado
 print("email: " + email)
 
 print(nombre)

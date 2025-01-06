@@ -48,6 +48,3 @@ boton_enviar.click()
 
 # Cerrar el navegador
 driver.quit()
-
-
-

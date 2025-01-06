@@ -18,6 +18,6 @@ Kind regards,
 {nombre_completo}
 """
 
-# Imprimir el mensaje generado
+# Imprimir para depurar
 print(mensaje_estructurado)
-print(email)
+# print(email)
