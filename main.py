@@ -3,7 +3,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from generar_subdominio import email, nombre_email, nombre_completo
+from generar_subdominio import email, nombre_completo
 from generar_mensajes import mensaje_estructurado
 
 # Configurar el controlador de Firefox utilizando GeckoDriverManager
